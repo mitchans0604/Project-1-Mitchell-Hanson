@@ -1,0 +1,56 @@
+.navbar_explain li
+{
+	font-size: 3vh;
+}
+
+#ssb_logo
+{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 20vw;
+}
+
+#ssbm_characters
+{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 40vw;
+}
+
+@media (max-width: 800px)
+{
+	h2
+	{
+		font-size: 5vw;
+	}
+	
+	p
+	{
+		font-size: 3vw;
+	}
+
+	#ssb_logo
+	{
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		width: 30vw;
+	}
+	
+	#ssbm_characters
+	{
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		width: 60vw;
+	}
+
+	.navbar_info_li
+	{
+		font-size: 3vw;
+		list-style-type: none;
+		padding-bottom: 15px;
+	}
+}

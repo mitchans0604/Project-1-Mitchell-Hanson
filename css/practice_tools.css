@@ -1,0 +1,15 @@
+.practice_tool_images
+{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+}
+
+@media (max-width: 800px)
+{
+	.practice_tool_images
+	{
+		width: 50vw;
+	}
+}

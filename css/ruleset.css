@@ -1,0 +1,59 @@
+#stagelist
+{
+	display: grid;
+	grid-template-columns: 33.33% 33.33% 33.33%;
+	grid-template-rows: 50% 50%;
+	margin: 0.5%;
+	text-align: center;
+}
+
+.stage_img
+{
+	width: 100%;
+}
+
+.rule_headers
+{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	font-size:4vh;
+	color:#0F89CA;
+}
+
+@media (max-width: 70em)
+{
+	#stagelist
+	{
+		display: grid;
+		grid-template-columns: 50% 50%;
+		grid-template-rows: 33% 35% 33%;
+		margin: 0.5%;
+		text-align: center;
+	}
+	
+	.one_vs_one_rules_li
+	{
+		list-style-type: none;
+		padding-bottom: 7px;
+	}
+}
+
+@media (max-width: 45em)
+{
+	#stagelist
+	{
+		display: grid;
+		grid-template-columns: 100%;
+		grid-template-rows: 17% 17% 17% 17% 17% 17%;
+		margin: 0.5%;
+		text-align: center;
+	}
+	
+	.one_vs_one_rules_li
+	{
+		list-style-type: none;
+		padding-bottom: 7px;
+	}
+}

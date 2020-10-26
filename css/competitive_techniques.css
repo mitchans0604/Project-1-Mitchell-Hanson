@@ -1,0 +1,32 @@
+#top_five_comp-tech_header, #comp-tech_header
+{
+	text-align: center;
+	font-size:4vh;
+	color:#0F89CA;
+}
+
+#flexlist_other-tech
+{
+	display: flex;
+	flex-flow: column wrap;
+	height: 25vh;
+}
+
+@media (max-width: 800px)
+{
+	#top_five_comp-tech_header, #comp-tech_header
+	{
+		font-size: 4.5vw;
+	}
+	
+	.five_tech_li
+	{
+		font-size: 3vw;
+	}
+
+	.flexlist_tech_li
+	{
+		font-size: 3vw;
+		margin-right: 30px;
+	}
+}

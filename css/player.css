@@ -1,0 +1,47 @@
+table, tr, td
+{
+	border: 1px solid white;
+	width: 20%;
+}
+
+table
+{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	border: 1px solid white; /* check this out */
+	width: 90%;
+	height: 10%;
+}
+
+td
+{
+	font-size: 2vw;
+	text-align: center;
+}
+
+p
+{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	text-align:center;
+}
+
+body 
+{
+	margin: 0;
+}
+
+.table_img
+{
+	width: 100%;
+}
+
+@media (max-width: 800px)
+{	
+	td
+	{
+		font-size: 2.5vw;
+	}
+}

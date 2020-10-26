@@ -1,0 +1,104 @@
+/* Takes care of every div in all files */
+div
+{
+	font-family:Palatino Linotype, Book Antiqua, Palatino, serif;
+	font-size: 3vh;
+	margin-left:60px;
+	margin-right:60px;
+	color:rgb(210, 210, 210); 
+}
+	
+h2
+{
+	font-family:Times New Roman, Serif;
+	color:rgb(0,200,0);
+}
+
+p
+{
+	margin-left:60px;
+}
+
+a
+{
+	color:darkturquoise;
+}
+
+body
+{
+	margin:0px;
+	background-color:rgb(0, 0, 0);
+}
+
+.ssbm_logo
+{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 1vh;
+	width: 45vw;
+}
+
+.navBar
+{
+	font-family:Times New Roman, Serif;
+	list-style-type:none;
+	margin:0;
+	padding:0;
+	overflow:hidden;
+	background-color:#555555;
+	position: sticky;
+	top: 0;
+	width: 100%;
+}
+
+.navBar li a
+{
+	float:left;
+	border-right: 1px solid #000;
+	display:block;
+	color:white;
+	text-align:center;
+	padding:14px 16px;
+	text-decoration:none;
+}
+
+.navBar a:hover
+{
+	background-color:#111;
+}
+
+/* Changes active webpage button color green */
+.active
+{
+	background-color:#4CAF50;
+}
+
+/* Whenever any page gets below 800px this query changes h2 and p font size */
+@media (max-width: 800px)
+{
+	h2
+	{
+		font-size: 4vw;
+	}
+	
+	p
+	{
+		font-size: 3vw;
+	}
+}
+
+/* Media query for navBar */
+@media (max-width: 630px)
+{
+	.navBar
+	{
+		column-count:2;
+	}
+	.navBar li a
+	{
+		float:none;
+		border-right: 0px solid transparent;
+		font-size: 2vh;
+	}
+}

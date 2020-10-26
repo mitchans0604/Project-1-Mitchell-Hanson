@@ -1,0 +1,22 @@
+p
+{
+	font-family:Palatino Linotype, Book Antiqua, Palatino, serif;
+	font-size: 3vh;
+	margin-left: 60px;
+	margin-right: 60px;
+	text-align: center;
+	color:rgb(210 210 210); 
+}
+
+h2
+{
+	text-align: center;
+}
+
+.tierlist
+{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 70vw;
+}
